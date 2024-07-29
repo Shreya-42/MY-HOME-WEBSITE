@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 30px;
+    background: #a6ff5d;
+}
+
+.container{
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+    /* border: 1px solid #000; */
+}
+
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.visit, .info{
+    font-family: sans-serif;
+    font-size: 10px;
+    color: #fd7e7e;
+    font-weight: bold;
+}
+
+.logo{
+    font-family: sans-serif;
+}
+
+span{
+    color: #f75b1d;
+}
+
+.nav{
+    width: 100%;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
+.menu ul{
+    padding: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    color: #000;
+    text-decoration: none;
+    font-family: sans-serif;
+    padding: 7px;
+    font-size: 15px;
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 30px;
+    
+
+}
+
+.img{
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.7)), url(../image/banner.jpg);z-index: -100;
+}
+
+.img img{
+    width: 100%;
+    height: 500px;
+    /* background-image: url(..css/images/banner.jpg); */
+}
+
+.service{
+    width: 100%;
+
+}
+
+.card{
+    width: 20%;
+    padding: 15px;
+    background: #ccc;
+    margin-bottom: 20px;
+    /* margin-top: -50px; */
+    z-index: 999;
+    /* border: 1px solid #000; */
+}
+
+.card h4{
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    /* color: #0f0; */
+    z-index: 999;
+    text-align: center;
+}
+
+.card p{
+    font-family: sans-serif;
+    font-size: 11px;
+    color: #6b6b6b;
+    z-index: 999;
+    text-align: center;
+}
+
+
+.projects{
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-family: sans-serif;
+
+}
+
+
+.projects p{
+    font-size: 10px;
+    margin-top: 15px;
+}
+
+
+.box1{
+    
+    width: 100%;
+    background-color: #f8f4f2;
+    margin: 10px;
+}
+
+.box1 .img{
+    width: 94%;
+    height: 200px;
+    margin: 1%;   
+}
+
+.box1 p{
+    text-align: left;
+}
+
+.box1 h3{
+    text-align: left;
+    color: #685dff;
+}
+
+.box1 .img img{
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.box1 .img p{
+    margin-bottom: 20px;
+
+}
+i{
+    color: green;
+    font-size: 30px;
+    margin: 10px;
+}
+hr{
+    border: 1px solid green;
+    border-radius: 5px;
+}
